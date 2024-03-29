@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Ligth.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Lato', serif;
+
+$font-size-small: 0.75rem;
+$font-size-normal: 1rem;
+$font-size-large: 1.5rem;
+$font-size-extra-large: 3rem;
+
+$font-weight-thin: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
