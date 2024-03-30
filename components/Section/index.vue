@@ -5,7 +5,8 @@ import { article1, article2, article3 } from '~/utils/content/Articles';
 <template>
   <section class="section">
     <h2 class="section__title">
-      Modalidades de estudio <i class="fa-solid fa-graduation-cap"></i>
+      Modalidades de estudio 
+      <i class="fa-solid fa-graduation-cap section__title__icon"></i>
     </h2>
     <div class="section__content">
       <SectionModelArticle 
@@ -21,51 +22,43 @@ import { article1, article2, article3 } from '~/utils/content/Articles';
         :paragraph="article3.paragraph"
         :fontClass="article3.fontClass" />
     </div>
-    <div class="circle circle--large"></div>
-    <div class="circle circle--medium"></div>
-    <div class="circle circle--small"></div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .section{
-  min-height: 100vh;
   padding: 40px 20px;
-  color:  $green-700;
   position: relative;
-}
-.section__title{
-  font-family: $primary-font;
-  font-size: 2.2rem;
-  text-align: center;
-  margin-bottom: 40px;
+  overflow: hidden;
+  @media (min-width: $desktop-lower-breakpoint){
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: $primary-font;
+    color: $green-800;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    @media (min-width: $desktop-lower-breakpoint){
+      font-size: 8rem;
+      margin-bottom: 0;
+      border-radius: 10px;
+      padding: 30px;
+      color: #fff;
+      text-align: left;
+      width: 55%;
+      overflow-wrap: break-word;
+      background-color: $green-800;
+    }
+  }
 }
 .section__content{
-  display: flex;
-  flex-direction: column; 
-  gap: 20px;
-}
-.circle{
-  position: absolute;
-  border-radius: 50%;
-  background-color: $green-700;
-  &--large{
-    width: 300px;
-    height: 300px;
-    top: 0;
-    right: 0;
-  }
-  &--medium{
-    width: 150px;
-    height: 150px;
-    bottom: 0;
-    left: 0;
-  }
-  &--small{
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 0;
+  @media (min-width: $desktop-lower-breakpoint){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
   }
 }
 </style>

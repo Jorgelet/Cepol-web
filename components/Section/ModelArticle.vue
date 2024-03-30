@@ -17,7 +17,9 @@ const props = defineProps({
 
 <template>
   <article class="article">
-    <i :class="fontClass"></i>
+    <i
+      class="article__icon" 
+      :class="fontClass"></i>
     <h3 class="article__title">
       {{ title }}
     </h3>
@@ -29,19 +31,33 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .article{
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #fff;
-  margin-bottom: 20px;
-  color: $black;
-}
-.article__title{
   font-family: $primary-font;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-.article__paragraph{
-  font-family: $secondary-font;
-  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  color: $black;
+  @media (min-width: $mobile-upper-breakpoint){
+    width: 90%;
+    margin: 0 auto 25px;
+  }
+  &__icon{
+    font-size: 2rem;
+    @media (min-width: $desktop-lower-breakpoint){
+      display: none;
+    }
+  }
+  &__title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    @media (min-width: $desktop-lower-breakpoint){
+      font-size: 2.3rem;
+    }
+  }
+  &__paragraph{
+    font-size: 1rem;
+    @media (min-width: $desktop-lower-breakpoint){
+      font-size: 1.1rem;
+    }
+  }
 }
 </style>

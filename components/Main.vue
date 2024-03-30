@@ -81,7 +81,7 @@
   &__title{
     font-size: 5rem;
     margin-bottom: 20px;
-    color: $green-700;
+    color: $green-900;
     &--principal{
       @media (min-width: $tablet-upper-breakpoint){
         font-size: 6rem;
