@@ -40,7 +40,7 @@ const menuItems = [
 
 <style lang="scss" scoped>
 :deep(.header){
-  height: 15vh;
+  height: 10vh;
   background-color: #fff;
   color: white;
 }
