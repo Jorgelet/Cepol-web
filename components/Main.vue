@@ -1,7 +1,7 @@
 <template>
   <main class="main">
     <div class="main__content">
-      <h1 class="content__title">
+      <h1 class="content__title content__title--principal">
         CEPOL 
       </h1>
       <p class="content__paragraph">
@@ -81,6 +81,12 @@
   &__title{
     font-size: 5rem;
     margin-bottom: 20px;
+    color: $green-700;
+    &--principal{
+      @media (min-width: $tablet-upper-breakpoint){
+        font-size: 6rem;
+      }
+    }
   }
   &__paragraph{
     font-size: $font-size-normal;
@@ -89,6 +95,9 @@
     margin: 0 auto;
     @media (min-width: $tablet-upper-breakpoint) and (max-width: $desktop-lower-breakpoint){
       display: none;
+    }
+    @media (min-width: $desktop-lower-breakpoint){
+      font-size: 1.2rem;
     }
   }
 }

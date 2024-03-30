@@ -45,12 +45,7 @@ const menuItems = [
   color: white;
 }
 :deep(.header-figure-logo){
-  height: 80px;
   display: none;
-  @media (min-width: $tablet-upper-breakpoint){
-    height: 110px;
-    display: none;
-  }
 }
 :deep(.toggle-menu){
   padding: 20px;
@@ -64,7 +59,7 @@ const menuItems = [
 }
 :deep(.header-buttons-button){
   font-size: 2rem;
-  color: #000;
+  color: $black;
   font-family: $primary-font;
   font-weight: $font-weight-bold;
   text-decoration: none;
