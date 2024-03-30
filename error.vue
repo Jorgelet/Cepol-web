@@ -52,7 +52,7 @@ const props = defineProps({
 }
 .content__title{
   font-size: 4rem;
-  color: $green-700;
+  color: $green-900;
   &--secondary{
     font-size: 1.5rem;
     color: $black;
@@ -66,7 +66,7 @@ const props = defineProps({
   font-size: 1.5rem;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: $green-700;
+  background-color: $green-900;
   color: #fff;
   text-decoration: none;
   width: 250px;

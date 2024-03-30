@@ -19,7 +19,7 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 20px;
+  padding: 0 20px;
 }
 .footer__text{
   font-size: 1rem;
