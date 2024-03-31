@@ -29,7 +29,6 @@
 
 <style lang="scss" scoped>
 .main{
-  font-family: $primary-font;
   min-height: 85vh;
   display: flex;
   padding: 10px 16px;
@@ -90,7 +89,6 @@
   }
   &__paragraph{
     font-size: $font-size-normal;
-    font-family: $secondary-font;
     max-width: 80%;
     margin: 0 auto;
     @media (min-width: $tablet-upper-breakpoint) and (max-width: $desktop-lower-breakpoint){

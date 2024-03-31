@@ -6,7 +6,9 @@
     <p class="footer__text footer__text--hidden">
       El mejor preuniversitario del país
     </p>
-    <p class="footer__text">@info.com</p>
+    <p class="footer__text">
+      @info.com
+    </p>
   </footer>
 </template>
 

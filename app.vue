@@ -13,4 +13,10 @@
   padding: 0;
   object-fit: cover;
 }
+h1, h2, h3, h4, h5, h6, a {
+  font-family: $primary-font;
+}
+p {
+  font-family: $secondary-font;
+}
 </style>
