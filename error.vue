@@ -42,7 +42,6 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: $primary-font;
   color: $black;
   text-align: center;
   @media (min-width: $tablet-upper-breakpoint){
@@ -51,19 +50,26 @@ const props = defineProps({
   }
 }
 .content__title{
-  font-size: 4rem;
+  font-size: 3rem;
   color: $green-900;
+  @media (min-width: $tablet-upper-breakpoint){
+    font-size: 4rem;
+  }
   &--secondary{
     font-size: 1.5rem;
     color: $black;
   }
 }
 .content__paragraph{
+  font-size: 1rem;
   max-width: 40ch;
   margin: 0 auto;
+  @media (min-width: $tablet-upper-breakpoint){
+    font-size: 1.2rem;
+  }
 }
 .content__button{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 10px 20px;
   border-radius: 10px;
   background-color: $green-900;
@@ -71,5 +77,8 @@ const props = defineProps({
   text-decoration: none;
   width: 250px;
   margin: 0 auto;
+  @media (min-width: $tablet-upper-breakpoint){
+    font-size: 1.5rem;
+  }
 }
 </style>
