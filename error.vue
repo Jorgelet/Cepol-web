@@ -23,7 +23,7 @@ const props = defineProps({
         <NuxtLink 
           to="/" 
           class="content__button">
-          Go back home
+            Go back home
         </NuxtLink>
       </div>
     </div>
