@@ -13,12 +13,14 @@
       decoding="async"
       src="/assets/boy-mobil.webp"
       alt="Estudiante de Cepol" 
-      class="main__img" />
-      <img 
-        decoding="async"
-        src="/assets/boy.webp" 
-        alt="Estudiante de Cepol"
-        class="main__img main__img--large">
+      class="main__img" 
+    />
+    <img 
+      decoding="async"
+      src="/assets/boy.webp" 
+      alt="Estudiante de Cepol"
+      class="main__img main__img--large"
+    />
     <div class="secondary__content">
       <h2 class="content__title">
         Descubre tu potencial
@@ -29,7 +31,7 @@
 
 <style lang="scss" scoped>
 .main{
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
   padding: 10px 16px;
   position: relative;
@@ -80,7 +82,7 @@
   &__title{
     font-size: 5rem;
     margin-bottom: 20px;
-    color: $green-900;
+    color: $green-700;
     &--principal{
       @media (min-width: $tablet-upper-breakpoint){
         font-size: 6rem;

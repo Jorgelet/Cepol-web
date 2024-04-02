@@ -4,17 +4,21 @@ import CrushHeader from '@nabux-crush/crush-header'
 import CepolLogo from '@/assets/cepol.webp'
 
 const menuItems = [
+  {
+    name: 'Inicio',
+    link: '/'
+  },
   { 
     name: 'Blog', 
     link: '/blogs' 
   },
+  {
+    name: 'Servicios',
+    link: '/service',
+  },
   { 
     name: 'Contacto', 
     link: '/contact' 
-  },
-  {
-    name: 'Servicio',
-    link: '/service'
   }
 ]
 </script>
@@ -64,7 +68,7 @@ const menuItems = [
   font-weight: $font-weight-bold;
   text-decoration: none;
   @media (min-width: $tablet-upper-breakpoint){
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 </style>

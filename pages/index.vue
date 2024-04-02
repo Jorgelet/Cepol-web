@@ -12,8 +12,6 @@ useHead({
 
 <template>
   <Main></Main>
-  <!-- <Section></Section> -->
+  <SectionNumbers></SectionNumbers>
+  <SectionCards></SectionCards>
 </template>
-
-<style scoped>
-</style>

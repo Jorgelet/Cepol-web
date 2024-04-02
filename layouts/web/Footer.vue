@@ -15,8 +15,7 @@
 <style lang="scss" scoped>
 .footer{
   height: 5vh;
-  font-family: $primary-font;
-  background-color: $black;
+  background-color: $green-900;
   display: flex;
   justify-content: space-between;
   align-items: center;
