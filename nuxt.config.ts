@@ -6,6 +6,13 @@ export default defineNuxtConfig({
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),
   },
+  runtimeConfig: {
+    public: {
+      serviceId: process.env.SERVICE_ID,
+      templateId: process.env.TEMPLATE_ID,
+      publicKey: process.env.PUBLIC_KEY,
+    }
+  },
   vite: {
     css:{
       preprocessorOptions:{
