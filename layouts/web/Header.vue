@@ -10,7 +10,7 @@ const menuItems = [
   },
   { 
     name: 'Blog', 
-    link: '/blogs' 
+    link: '/blog' 
   },
   {
     name: 'Servicios',

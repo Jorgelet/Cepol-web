@@ -35,4 +35,4 @@ import { content1, content2, content3 } from '@/utils/content/SectionCards/Conte
   flex-direction: column;
   gap: 80px;
 }
-</style>~/utils/content/SectionCards/Content
+</style>
