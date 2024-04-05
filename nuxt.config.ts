@@ -3,6 +3,7 @@ import { fileURLToPath } from 'url';
 
 export default defineNuxtConfig({
   devtools: { enabled: false },
+  ssr: false,
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),
   },
