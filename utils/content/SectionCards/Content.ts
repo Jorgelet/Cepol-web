@@ -6,8 +6,8 @@ import IMAGE3 from '@/assets/section3.webp'
 export const content1 = {
   image: IMAGE1,
   spanTitle: 'Maestros',
-  title: 'Haz una diferencia en tu salón de clases y fomenta la participación de cada estudiante.',
-  paragraph: 'Empoderamos a los maestros para que apoyen a todo su salón de clases. 90% de los maestros de EE. UU. que han usado Khan Academy lo considera efectivo.',
+  title: 'Asegura tu ingreso a primer semestre en la Universidad que tú elijas',
+  paragraph: 'Te preparamos en cada área de conocimiento para prepararte para el examen de ingreso a la universidad en la carrera de tú elección.',
   buttonContent: 'Maestros, inicien aquí'  
 }
 
@@ -23,7 +23,7 @@ export const content3 = {
   image: IMAGE3,
   spanTitle: 'Juntos podemos hacer la diferencia',
   title: 'Todos los jovenes merecen la oportunidad de aprender.',
-  paragraph: 'En todo el mundo, 617 millones de niños carecen de habilidades básicas en matemáticas y lectura. Tú puedes cambiar el curso de la vida de un niño.',
-  buttonContent: 'Dales la oportunidad'
+  paragraph: 'Cada año en Ecuador, más de 100.000 jóvenes se quedan sin cupo para ingresar a la Educación Superior. Con CEPOL, tú puedes cambiar tu futuro',
+  buttonContent: 'Empieza ahora'
 }
 

@@ -49,7 +49,7 @@ const props = defineProps({
       </p>
       <Button
         :text="buttonContent"
-        href="#"
+        href="/contact"
       />
     </div>
   </section>

@@ -1,17 +1,17 @@
 export const article1 = {
   icon: 'fa-solid fa-chalkboard-user',
-  title: 'Aprendizaje personalizado',
-  paragraph: 'Los estudiantes practican a su propio ritmo; primero para llenar las lagunas en su comprensión y luego acelerar su aprendizaje.'
+  title: 'Aprendizaje Focalizado',
+  paragraph: 'Nuestros estudiantes pasan por un proceso de nivelación para llenar posibles vacíos y posteriormente acelerar su aprendizaje.'
 }
 
 export const article2 = {
   icon: 'fa-solid fa-hand-peace',
-  title: 'Contenido de confianza',
-  paragraph: 'Creado por expertos, la biblioteca de ejercicios y lecciones de Khan Academy cubre matemáticas, ciencias y más. Y siempre es gratis para estudiantes y maestros.'
+  title: 'Docentes especializados',
+  paragraph: 'CEPOL cuenta con profesores expertos en su área, con el contenido académico y completo en cada uno de nuestros cursos.'
 }
 
 export const article3 = {
   icon: 'fa-solid fa-screwdriver-wrench',
-  title: 'Herramientas para empoderar a los maestros',
-  paragraph: 'Con Khan Academy los maestros pueden identificar las lagunas en comprensión de sus estudiantes, crear una clase a la medida y satisfacer las necesidades de cada uno.'
+  title: 'Instalaciones de primera',
+  paragraph: 'Contamos con espacios adecuados para una pedagogía adecuada, con piscina, áreas de recreación y seguridad.'
 }
