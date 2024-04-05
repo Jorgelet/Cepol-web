@@ -55,4 +55,4 @@ import { article1, article2, article3 } from '~/utils/content/SectionNumbers/Con
     }
   }
 }
-</style>~/utils/content/SectionNumbers/Articles
+</style>
