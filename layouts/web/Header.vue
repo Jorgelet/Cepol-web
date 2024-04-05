@@ -19,6 +19,10 @@ const menuItems = [
   { 
     name: 'Contacto', 
     link: '/contact' 
+  },
+  {
+    name: 'Iniciar Sesión',
+    link: '/login'
   }
 ]
 </script>
