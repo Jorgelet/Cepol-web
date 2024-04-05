@@ -22,7 +22,7 @@ const menuItems = [
   },
   {
     name: 'Iniciar Sesión',
-    link: '/login'
+    link: 'https://app.codigoencasa.com/auth/login'
   }
 ]
 </script>
