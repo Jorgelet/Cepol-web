@@ -52,6 +52,7 @@
     bottom: 0;
     right: 0;
     z-index: -10;
+    mask-image: linear-gradient(black 70%, transparent);
     @media (min-width: $tablet-upper-breakpoint){
       display: none;
     }
