@@ -2,7 +2,7 @@
 import BlogService from '~/services/BlogService';
 
 const authorInfo = ref<any[]>([]);
-const firstPost = ref<any>(null);
+const firstPost = ref<any>({});
 const authors = ['yeyodev', 'denisse', 'luis-reyes', 'dayanara'];
 const orderedPosts = computed(() => {
   return authorInfo.value.sort((a, b) => {
@@ -57,7 +57,7 @@ Promise.all(authors.map((authorName: string) => BlogService.fetchAuthorInfo(auth
   margin-bottom: 40px;
   &__title {
     font-size: 4rem;
-    color: $green-900;
+    color: $green-700;
     padding: 20px;
   }
 }

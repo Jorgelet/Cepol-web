@@ -39,7 +39,7 @@
     width: 100%;
     text-align: start;
     padding-inline: 20px;
-    color: $green-900;
+    color: $green-700;
     @media (min-width: $tablet-upper-breakpoint){
       font-size: 5rem;
     }
