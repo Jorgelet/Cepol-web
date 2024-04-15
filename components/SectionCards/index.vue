@@ -17,7 +17,6 @@ function animateSection(){
         start: 'top 80%',
         end: 'top 20%',
         toggleActions: 'play none none none',
-        markers: true
       },
       x: index % 2 === 0 ? -100 : 100,
       opacity: 0,
@@ -33,7 +32,6 @@ function animateSection(){
         start: 'top 80%',
         end: 'top 20%',
         toggleActions: 'play none none none',
-        markers: true
       },
       x: index % 2 === 0 ? 100 : -100,
       opacity: 0,

@@ -15,7 +15,6 @@ function animateSection() {
         start: 'top 80%',
         end: 'top 20%',
         toggleActions: 'play none none none',
-        markers: true
       },
       y: 100,
       opacity: 0,
