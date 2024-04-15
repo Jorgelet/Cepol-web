@@ -1,5 +1,31 @@
 <script setup lang="ts">
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import { article1, article2, article3 } from '~/utils/content/SectionNumbers/Content';
+
+gsap.registerPlugin(ScrollTrigger);
+
+function animateSection() {
+  const articles = document.querySelectorAll('.article');
+  articles.forEach((article, index) => {
+    gsap.from(article, {
+      scrollTrigger: {
+        trigger: article,
+        start: 'top 80%',
+        end: 'top 20%',
+        toggleActions: 'play none none none',
+        markers: true
+      },
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      delay: index * .5
+    });
+  });
+};
+
+onMounted(animateSection);
 </script>
 
 <template>

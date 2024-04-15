@@ -1,5 +1,49 @@
 <script setup lang="ts">
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import { content1, content2 } from '@/utils/content/SectionCards/Content'
+
+gsap.registerPlugin(ScrollTrigger);
+
+function animateSection(){
+  const sectionsImages = document.querySelectorAll('.section__img');
+  const sectionsContent = document.querySelectorAll('.section__content');
+
+  sectionsImages.forEach((sectionImage, index) => {
+    gsap.from(sectionImage, {
+      scrollTrigger: {
+        trigger: sectionImage,
+        start: 'top 80%',
+        end: 'top 20%',
+        toggleActions: 'play none none none',
+        markers: true
+      },
+      x: index % 2 === 0 ? -100 : 100,
+      opacity: 0,
+      duration: 1,
+      delay: index * .5
+    });
+  });
+
+  sectionsContent.forEach((sectionContent, index) => {
+    gsap.from(sectionContent, {
+      scrollTrigger: {
+        trigger: sectionContent,
+        start: 'top 80%',
+        end: 'top 20%',
+        toggleActions: 'play none none none',
+        markers: true
+      },
+      x: index % 2 === 0 ? 100 : -100,
+      opacity: 0,
+      duration: 1,
+      delay: index * .5
+    });
+  });
+}
+
+onMounted(animateSection);
 </script>
 
 <template>
