@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { Vue3Lottie } from 'vue3-lottie';
 import ContactAnimation from '@/assets/animations/contact.json'
+
+useHead({
+  title: 'Cepol | Preuniversitario',
+  meta: [
+    {
+      name: 'description',
+      content: 'Página de contacto de Cepol. No dudes en ponerte en contacto con nosotros para cualquier consulta.'
+    }
+  ]
+})
 </script>
 
 <template>
